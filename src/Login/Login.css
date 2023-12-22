@@ -84,7 +84,7 @@ height:40.18em;
     background-color:beige;
 }
 .image_login_container{
-    background-image: url("./Imagenes/coche-deportivo-futurista-sobre-papel-tapiz-negro_796580-1817.avif");
+    background-image: url("/src/Imagenes/coche-deportivo-futurista-sobre-papel-tapiz-negro_796580-1817.avif");
     background-position: center;
     background-repeat: no-repeat;
     background-size:cover;
