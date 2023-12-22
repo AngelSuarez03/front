@@ -30,7 +30,8 @@ function PantallaCoche(props) {
     }
 
     const atrasBtn = () => {
-        window.open("../Legendary.html", "_self");
+        window.location.href = "../Legendary.html";
+        // window.open("../Legendary.html", "_self");
     }
 
     const obtenerEstaditicasCoche = async () => {

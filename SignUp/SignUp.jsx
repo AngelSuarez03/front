@@ -93,7 +93,7 @@ function SignUp() {
                 <input type="password" name="contrasena" id="contrasena" required placeholder="Contraseña" className='textFieldDatos' onChange={cambiosFormulario}/>
                 <input type="submit" value="Registrarme" className='botonSesion' disabled={cargando}/>
             </form>    
-            <a href="./Login.html" className="link_SingUp">Iniciar Sesión</a>
+            <a href="../Login.html" className="link_SingUp">Iniciar Sesión</a>
             <Box m={5}>
            { mostrarPopup && <UsuarioAgregado onClose={()=> setMostrarPopup(false)}/>}
             </Box>

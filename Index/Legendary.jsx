@@ -47,15 +47,18 @@ function Legendary() {
 
     //!FUNCIÓN EJECUTADA AL DARLE CLICK EN BOTON DE CERRAR SESIÓN
     const cerrarSesion = () => {
-        window.open("../index.html", "_self");
+        window.location.href = "../index.html";
+        // window.open("../index.html", "_self");
     }
     //!FUNCIÓN PARA ABRIR VENTANA DEL PERFIL DEL USUARIO
     const miPerfil = () => {
-        window.open("../MiPerfil.html", "_self");
+        window.location.href = "../MiPerfil.html";
+        // window.open("../MiPerfil.html", "_self");
     }
 
     const verCompras = () => {
-        window.open("../misCompras.html", "_self");
+        window.location.href = "../misCompras.html";
+        // window.open("../misCompras.html", "_self");
     }
 
     return (

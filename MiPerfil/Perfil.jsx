@@ -68,14 +68,17 @@ function MiPerfil() {
     }
     UsuarioData();
     const atrasBtn=()=>{
-        window.open("../Legendary.html","_self");
+        
+        window.location.href = "../Legendary.html";
+        // window.open("../#/Legendary.html","_self");
     }
     //!METODO PARA PROCESAR LA ACTUALIZACIÓN
     const procesarActualización=async()=>{
         try {
             const respuesta= await peticionActualizar();
             console.log("DATA DE ACTUALIZACIÓN",respuesta.data);
-            window.open("../index.html","_self");
+            window.location.href = "../index.html";
+            // window.open("../index.html","_self");
         } catch (error) {
             console.log(error);
         }
@@ -86,7 +89,8 @@ function MiPerfil() {
         try {
             const respuesta=await peticionEliminar();
             console.log("RESPUESTA DE ELIMINACIÓN", respuesta.data);
-            window.open("../index.html","_self");
+            window.location.href = "../index.html";
+            // window.open("../index.html","_self");
         } catch (error) {
             console.log(error);
         }
