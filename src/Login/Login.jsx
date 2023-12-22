@@ -54,7 +54,7 @@ function Login() {
         <>
             <div className="container">
                 <div className="Login_container">
-                    <img src="../Imagenes/Legendary.WEBP" alt="" className="img_Legendary" />
+                    <img src="./Imagenes/Legendary.WEBP" alt="" className="img_Legendary" />
                     <h1 className="title">Inicio de Sesión</h1>
 
                     <form action="" onSubmit={procesarFormulario}>
