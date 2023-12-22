@@ -60,7 +60,7 @@ const procesarFormulario=async(evento)=>{
                 <input type="password" className="textFieldDatos" placeholder="Contraseña" onChange={cambiosFormulario} name='contrasena'/>
                 <input type="submit" value="Iniciar Sesión" className="botonSesion" disabled={cargando}/>
              </form>
-            <a href="./SingUp.html" className="link_SingUp">Registrarme</a>
+            <a href="./SignUp.html" className="link_SingUp">Registrarme</a>
         </div>
 
         <div className="image_login_container">
